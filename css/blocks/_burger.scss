@@ -1,0 +1,21 @@
+/* CSS Document */
+
+.burger{
+    width: 30px;
+    height: 30px;
+    display: none;
+    padding: 0;
+    border: 0;
+    background: none;
+        @media screen and ( max-width: 767px){
+            display: block;
+    }
+        /* @media screen and ( max-width: 991px){
+             display: block;
+    }*/
+}
+.burger__icon{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}

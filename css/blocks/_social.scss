@@ -1,0 +1,15 @@
+/* CSS Document */
+
+.social{
+	display: flex;
+	margin-bottom: 42px;
+}
+.social__link{
+	color: $greenl;
+	font-size: 40px;
+	transition: transform .2s linear;
+	&:hover{
+		transform: translateY(-5px);
+	}
+	
+}

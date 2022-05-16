@@ -1,0 +1,41 @@
+/* CSS Document */
+
+.work{
+	overflow: hidden;//чтоб картинка не вылазила за края
+	box-shadow: $box;
+	border-radius: 10px;
+	background: radial-gradient(#273f43, transparent);
+	transition: box-shadow .2s linear;
+	
+	&:hover{
+		box-shadow: 0 0 20px 4px black;
+	}
+    @media screen and ( max-width: 375px){
+        max-width: 370px;
+    }
+    @media screen and ( max-width: 360px){
+        margin: 0 auto;
+    }
+}
+.work__img{
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+.work__content{
+	padding: 15px 12px;
+}
+.work__cat{
+	margin-bottom: 6px;
+	font-size: 12px;
+	color: $greend;
+	text-transform: uppercase;
+}
+.work__title{
+	display: flex;
+	justify-content: space-between;
+	font-size: 16px;
+	color: $greend;
+	text-transform: uppercase;
+	font-weight: 700;
+}

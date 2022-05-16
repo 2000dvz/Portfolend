@@ -1,0 +1,84 @@
+/* CSS Document */
+
+.footer{
+    padding: 15px 0;
+    background-color: $black;
+    box-shadow: $box;
+        @media screen and ( max-width: 767px){
+             width: 100%;
+    }
+        @media screen and ( max-width: 375px){
+             width: 100%;
+    }
+}
+.footer__inner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;  
+}
+.footer__credits{
+    display: flex;
+    align-items: center;
+        @media screen and ( max-width: 767px){
+             width: 100%;
+            justify-content: center;
+            margin-bottom: 15px;
+    }
+         @media screen and ( max-width: 375px){
+             flex-direction: column;
+    }
+}
+.footer__social{
+    display: flex;
+    align-items: center;
+     a{
+        color: $gray-l;
+        width: 24px;
+        text-decoration: none;
+     }
+}
+.footer__copyright{
+    padding-right: 12px;
+    margin-right: 15px;
+    font-size: 14px;
+    color: $gray-l;
+    border-right: 1px solid $gray-l; 
+          @media screen and ( max-width: 375px){
+             margin-right: 0;
+              margin-bottom: 15px;
+              border-right: 0;
+    }
+}
+.footer__nav{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+          @media screen and ( max-width: 375px){
+              width: 100%;
+              justify-content: center;
+              flex-wrap: wrap;
+    }  
+}
+.footer__nav-link{
+    margin-left: 20px;
+    color: $gray-l;
+    text-decoration: none;
+    &:hover{
+        text-decoration: underline;
+    }
+    &--btn{
+        padding: 7px 21px;
+        border: 1px solid $pink;
+        border-radius: 20px;
+        line-height: 1.1;
+        &:hover{
+            text-decoration: none;
+            background-color: $pink;
+            border-color: $colorw;
+            color: $black;
+        }
+    }
+              @media screen and ( max-width: 375px){
+                margin: 0 7px 7px;
+    }  
+}

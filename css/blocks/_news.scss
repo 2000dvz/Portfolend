@@ -1,0 +1,22 @@
+/* CSS Document */
+
+.news{
+    margin-top: 210px;
+    margin-bottom: 120px;
+}
+.news__header{
+    margin-bottom: 50px;
+    text-align: center;
+}
+.news__title{
+    margin-bottom: 5px;
+    font-size: 45px;
+    color: $greend;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.news__text{
+    font-size: 18px;
+    color: $black;
+    font-weight: 500;
+}

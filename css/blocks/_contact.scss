@@ -1,0 +1,35 @@
+/* CSS Document */
+
+.contact{
+    display: flex;
+    color: $white;
+}
+.contact__left{
+    width: 47%;
+    padding: 30px;
+}
+.contact__right{
+    width: 53%;
+    background-image: url("../../img/papircop.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact__info{
+    margin: 30px 0 45px;
+    padding: 0;
+    list-style: none;
+    font-size: 14px;
+    font-weight: 300;
+}
+.contact__info-item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    &:last-child{
+        margin-bottom: 0;
+    }
+}
+.contact__info-icon{
+    margin-right: 12px;
+}
